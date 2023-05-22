@@ -1,0 +1,19 @@
+<html>
+  <body>
+    <form name="forma1" onSubmit=f()>
+      <p>Введите пароль</p>
+      <input type="password" name="pas">
+      <input type="submit">
+    </form>
+    <script>
+      function f()
+      {
+      password=document.forma1.pas.value;
+      if (password=="12345")
+      alert("Введен правильный пароль");
+      else
+      alert("Введен неправильный пароль");
+      }
+    </script>
+  </body>
+</html> 
